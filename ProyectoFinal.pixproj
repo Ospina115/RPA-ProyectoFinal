@@ -60,32 +60,32 @@
     <ProjectFileItem z:Id="i13">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Framework\Web\GetProductInfo.pix</Path>
+      <Path>Framework\Web\GetUsdInfo.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i14">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Framework\Web\GetUsdInfo.pix</Path>
+      <Path>Framework\Pix\SetCOP2USD.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i15">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Framework\Pix\SetCOP2USD.pix</Path>
+      <Path>Framework\Pix\SendEmail.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i16">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Framework\Pix\SendEmail.pix</Path>
+      <Path>Framework\Desktop\WriteExcel.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i17">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Framework\Desktop\WriteExcel.pix</Path>
+      <Path>Framework\Desktop\WriteDocx&amp;Pdf.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i18">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Framework\Desktop\WriteDocx&amp;Pdf.pix</Path>
+      <Path>Framework\Web\GetProductInfo.pix</Path>
     </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
