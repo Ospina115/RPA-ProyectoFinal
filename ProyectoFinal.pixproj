@@ -15,52 +15,77 @@
     <ProjectFileItem z:Id="i4">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Framework\InitApplications.pix</Path>
+      <Path>Framework\KillApplications.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i5">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Framework\CloseApplications.pix</Path>
+      <Path>Data\Config.xlsx</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i6">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Framework\KillApplications.pix</Path>
+      <Path>nuget.config</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i7">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Framework\GetTransactionItem.pix</Path>
+      <Path>packages.config</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i8">
-      <IsDirectory>false</IsDirectory>
+      <IsDirectory>true</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>ProcessTransactionItem.pix</Path>
+      <Path>Framework\Web</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i9">
-      <IsDirectory>false</IsDirectory>
+      <IsDirectory>true</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Framework\SetTransactionStatus.pix</Path>
+      <Path>Framework\Pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i10">
-      <IsDirectory>false</IsDirectory>
+      <IsDirectory>true</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Framework\TakeScreenshot.pix</Path>
+      <Path>Framework\Desktop</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i11">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Data\Config.xlsx</Path>
+      <Path>Framework\Web\CloseBrowser.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i12">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>nuget.config</Path>
+      <Path>Framework\Web\InitBrowser.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i13">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>packages.config</Path>
+      <Path>Framework\Web\GetProductInfo.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i14">
+      <IsDirectory>false</IsDirectory>
+      <IsMain>false</IsMain>
+      <Path>Framework\Web\GetUsdInfo.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i15">
+      <IsDirectory>false</IsDirectory>
+      <IsMain>false</IsMain>
+      <Path>Framework\Pix\SetCOP2USD.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i16">
+      <IsDirectory>false</IsDirectory>
+      <IsMain>false</IsMain>
+      <Path>Framework\Pix\SendEmail.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i17">
+      <IsDirectory>false</IsDirectory>
+      <IsMain>false</IsMain>
+      <Path>Framework\Desktop\WriteExcel.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i18">
+      <IsDirectory>false</IsDirectory>
+      <IsMain>false</IsMain>
+      <Path>Framework\Desktop\WriteDocx&amp;Pdf.pix</Path>
     </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
