@@ -44,7 +44,7 @@
         <SelectedOptionId>2</SelectedOptionId>
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>true</EnableStatus>
+        <EnableStatus>false</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text>Conectar por url</Text>

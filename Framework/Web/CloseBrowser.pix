@@ -7,7 +7,7 @@
     <Childs>
       <AbstractStep z:Id="i3" i:type="ExecutedStep">
         <Childs />
-        <HeightOnFlowchart i:nil="true" />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>949ea397-2088-483f-a4d1-db5a6d61fd06</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
@@ -22,7 +22,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
-        <WidthOnFlowchart i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
@@ -32,7 +32,7 @@
       </AbstractStep>
       <AbstractStep z:Id="i5" i:type="ExecutedStep">
         <Childs />
-        <HeightOnFlowchart i:nil="true" />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>63baf5fb-e0bd-448b-88f1-a37c3b07b028</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
@@ -47,7 +47,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
-        <WidthOnFlowchart i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
@@ -72,7 +72,15 @@
   </Logic>
   <Name>CloseBrowser.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-  <Params />
+  <Params>
+    <Parameter z:Id="i7">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>navegador</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>Web.Core.WebBrowser</TypeString>
+    </Parameter>
+  </Params>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
     <d2p1:_Build>0</d2p1:_Build>
     <d2p1:_Major>3</d2p1:_Major>

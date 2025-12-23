@@ -82,11 +82,36 @@
               <AbstractStep z:Id="i11" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
-                <Id>0852421c-2437-4604-a65c-efa42ffeb28b</Id>
+                <Id>ede9191d-1313-4494-b0dd-41aaa270375f</Id>
                 <Parent z:Ref="i7" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
                   <PropertyValue z:Id="i12">
+                    <PropertyName>Count</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>3</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId>0</SelectedOptionId>
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i13" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>0852421c-2437-4604-a65c-efa42ffeb28b</Id>
+                <Parent z:Ref="i7" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i14">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Explorador iniciado correctamente"</_expression>
@@ -119,16 +144,16 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Try</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i13" i:type="ExecutedStep">
+          <AbstractStep z:Id="i15" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i14" i:type="ExecutedStep">
+              <AbstractStep z:Id="i16" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>cf94ea2e-21cb-4595-866f-c8c7dd9c131a</Id>
-                <Parent z:Ref="i13" />
+                <Parent z:Ref="i15" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i15">
+                  <PropertyValue z:Id="i17">
                     <PropertyName>Level</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression i:nil="true" />
@@ -136,7 +161,7 @@
                     <_value xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.Core.Base" i:type="d11p1:LogLevel">Error</_value>
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i16">
+                  <PropertyValue z:Id="i18">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Ha ocurrido un error al iniciar Chorme, por favor verifique la extension. " + error</_expression>
@@ -154,14 +179,14 @@
                 <Text></Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i17" i:type="ExecutedStep">
+              <AbstractStep z:Id="i19" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>70256606-7379-46a1-bd83-35c80b07a809</Id>
-                <Parent z:Ref="i13" />
+                <Parent z:Ref="i15" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i18">
+                  <PropertyValue z:Id="i20">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Error al iniciar el navegador. " + fuente</_expression>
@@ -185,7 +210,7 @@
             <Parent z:Ref="i6" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues>
-              <PropertyValue z:Id="i19">
+              <PropertyValue z:Id="i21">
                 <PropertyName>Source</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>fuente</_expression>
@@ -193,7 +218,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i20">
+              <PropertyValue z:Id="i22">
                 <PropertyName>Exception</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>error</_expression>
@@ -211,7 +236,7 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Catch</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i21" i:type="ExecutedStep">
+          <AbstractStep z:Id="i23" i:type="ExecutedStep">
             <Childs />
             <HeightOnFlowchart i:nil="true" />
             <Id>0183dbaf-bc6f-4f59-a7d8-21fa3f524639</Id>
@@ -242,14 +267,14 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.TryCatch</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i22" i:type="ExecutedStep">
+      <AbstractStep z:Id="i24" i:type="ExecutedStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>51e22f90-fda4-40a3-922b-7a3d35021835</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
-          <PropertyValue z:Id="i23">
+          <PropertyValue z:Id="i25">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Fin de la activación de aplicaciones."</_expression>
@@ -285,14 +310,14 @@
   <Name>InitBrowser.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i24">
+    <Parameter z:Id="i26">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>producto</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i25">
+    <Parameter z:Id="i27">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>navegador</Name>
