@@ -46,14 +46,26 @@
         <Childs>
           <AbstractStep z:Id="i7" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i8" i:type="ExecutedStep">
+              <AbstractStep z:Id="i8" i:type="CommentStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>51877d1d-76ef-40a1-bd21-5cba21d55108</Id>
+                <Parent z:Ref="i7" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <IsCollapsed>false</IsCollapsed>
+                <Text>Iniciamos chorme en la url de mercadolibre aplicando la busqueda del producto directamente</Text>
+              </AbstractStep>
+              <AbstractStep z:Id="i9" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>eb195ef3-3ac9-4ceb-b351-c0bee854227a</Id>
                 <Parent z:Ref="i7" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i9">
+                  <PropertyValue z:Id="i10">
                     <PropertyName>URL</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>@$"https://listado.mercadolibre.com.co/{producto}"</_expression>
@@ -61,7 +73,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i10">
+                  <PropertyValue z:Id="i11">
                     <PropertyName>Browser</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>navegador</_expression>
@@ -79,14 +91,14 @@
                 <Text>Iniciar MercadoLibre</Text>
                 <_activityFullName>Activities.Web.LaunchChrome</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i11" i:type="ExecutedStep">
+              <AbstractStep z:Id="i12" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>ede9191d-1313-4494-b0dd-41aaa270375f</Id>
                 <Parent z:Ref="i7" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i12">
+                  <PropertyValue z:Id="i13">
                     <PropertyName>Count</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>3</_expression>
@@ -104,14 +116,14 @@
                 <Text></Text>
                 <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i13" i:type="ExecutedStep">
+              <AbstractStep z:Id="i14" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>0852421c-2437-4604-a65c-efa42ffeb28b</Id>
                 <Parent z:Ref="i7" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i14">
+                  <PropertyValue z:Id="i15">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Explorador iniciado correctamente"</_expression>
@@ -144,16 +156,28 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Try</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i15" i:type="ExecutedStep">
+          <AbstractStep z:Id="i16" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i16" i:type="ExecutedStep">
+              <AbstractStep z:Id="i17" i:type="CommentStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>c88ba26a-444a-4612-b99d-0d240daa349b</Id>
+                <Parent z:Ref="i16" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <IsCollapsed>false</IsCollapsed>
+                <Text>En caso de error, se detiene el bot, ya que sin poder acceder a mercadolibre, no podemos continuar</Text>
+              </AbstractStep>
+              <AbstractStep z:Id="i18" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>cf94ea2e-21cb-4595-866f-c8c7dd9c131a</Id>
-                <Parent z:Ref="i15" />
+                <Parent z:Ref="i16" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i17">
+                  <PropertyValue z:Id="i19">
                     <PropertyName>Level</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression i:nil="true" />
@@ -161,7 +185,7 @@
                     <_value xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.Core.Base" i:type="d11p1:LogLevel">Error</_value>
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i18">
+                  <PropertyValue z:Id="i20">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Ha ocurrido un error al iniciar Chorme, por favor verifique la extension. " + error</_expression>
@@ -179,14 +203,14 @@
                 <Text></Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i19" i:type="ExecutedStep">
+              <AbstractStep z:Id="i21" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>70256606-7379-46a1-bd83-35c80b07a809</Id>
-                <Parent z:Ref="i15" />
+                <Parent z:Ref="i16" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i20">
+                  <PropertyValue z:Id="i22">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Error al iniciar el navegador. " + fuente</_expression>
@@ -210,7 +234,7 @@
             <Parent z:Ref="i6" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues>
-              <PropertyValue z:Id="i21">
+              <PropertyValue z:Id="i23">
                 <PropertyName>Source</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>fuente</_expression>
@@ -218,7 +242,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i22">
+              <PropertyValue z:Id="i24">
                 <PropertyName>Exception</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>error</_expression>
@@ -236,7 +260,7 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Catch</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i23" i:type="ExecutedStep">
+          <AbstractStep z:Id="i25" i:type="ExecutedStep">
             <Childs />
             <HeightOnFlowchart i:nil="true" />
             <Id>0183dbaf-bc6f-4f59-a7d8-21fa3f524639</Id>
@@ -267,14 +291,14 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.TryCatch</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i24" i:type="ExecutedStep">
+      <AbstractStep z:Id="i26" i:type="ExecutedStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>51e22f90-fda4-40a3-922b-7a3d35021835</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
-          <PropertyValue z:Id="i25">
+          <PropertyValue z:Id="i27">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Fin de la activación de aplicaciones."</_expression>
@@ -310,14 +334,14 @@
   <Name>InitBrowser.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i26">
+    <Parameter z:Id="i28">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>producto</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i27">
+    <Parameter z:Id="i29">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>navegador</Name>

@@ -111,7 +111,6 @@
                               <xs:element name="Id" type="xs:int" minOccurs="0" />
                               <xs:element name="Nombre" type="xs:string" minOccurs="0" />
                               <xs:element name="Url" type="xs:string" minOccurs="0" />
-                              <xs:element name="Precio" type="xs:string" minOccurs="0" />
                             </xs:sequence>
                           </xs:complexType>
                         </xs:element>
@@ -1219,8 +1218,6 @@
                           <xs:complexType>
                             <xs:sequence>
                               <xs:element name="Id" type="xs:int" minOccurs="0" />
-                              <xs:element name="Nombre" type="xs:string" minOccurs="0" />
-                              <xs:element name="Url" type="xs:string" minOccurs="0" />
                               <xs:element name="Precio" type="xs:string" minOccurs="0" />
                             </xs:sequence>
                           </xs:complexType>
