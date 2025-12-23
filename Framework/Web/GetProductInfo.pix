@@ -1946,6 +1946,20 @@
       <RunnerType>None</RunnerType>
       <TypeString>Web.Core.WebBrowser</TypeString>
     </Parameter>
+    <Parameter z:Id="i210">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>tblNameUrl</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.Data.DataTable</TypeString>
+    </Parameter>
+    <Parameter z:Id="i211">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>tblPrice</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.Data.DataTable</TypeString>
+    </Parameter>
   </Params>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
     <d2p1:_Build>0</d2p1:_Build>

@@ -31,13 +31,212 @@
         <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
       </AbstractStep>
       <AbstractStep z:Id="i5" i:type="ExecutedStep">
+        <Childs>
+          <AbstractStep z:Id="i6" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i7" i:type="CommentStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>7d2da65a-5f8f-4205-81b8-cde93ea5ef7b</Id>
+                <Parent z:Ref="i6" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <IsCollapsed>false</IsCollapsed>
+                <Text>Cerramos el navegador para gestionar los recursos de la maquina y evitar futuros conflictos</Text>
+              </AbstractStep>
+              <AbstractStep z:Id="i8" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>e2407937-8b66-4d25-9256-3724592d775e</Id>
+                <Parent z:Ref="i6" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i9">
+                    <PropertyName>Browser</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>navegador</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId>0</SelectedOptionId>
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.Web.CloseBrowser</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i10" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>76b5e5e8-12a0-45d2-a4de-2f0ddcfce11a</Id>
+                <Parent z:Ref="i6" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i11">
+                    <PropertyName>Text</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"Navegador cerrado correctamente"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <HeightOnFlowchart i:nil="true" />
+            <Id>647e098b-2aca-45f6-95db-746a2a46260a</Id>
+            <Parent z:Ref="i5" />
+            <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <WidthOnFlowchart i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.Try</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i12" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i13" i:type="CommentStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>8f0d4c13-df0e-4fd8-ad3c-6919fa0bf6aa</Id>
+                <Parent z:Ref="i12" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <IsCollapsed>false</IsCollapsed>
+                <Text>En caso de no poder cerrar el navegador, ejecutamos el script KillApplications para forzar el cierre</Text>
+              </AbstractStep>
+              <AbstractStep z:Id="i14" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>a8990e7b-59bb-4074-9879-d2ff2dde79b6</Id>
+                <Parent z:Ref="i12" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i15">
+                    <PropertyName>Level</PropertyName>
+                    <_dataType>Value</_dataType>
+                    <_expression i:nil="true" />
+                    <_screenShotBase64 i:nil="true" />
+                    <_value xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.Core.Base" i:type="d11p1:LogLevel">Error</_value>
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i16">
+                    <PropertyName>Text</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"Hubo un error al cerrar el navegador, forzando cierre del navegador"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i17" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>5196ad40-c1b9-49d0-8f5f-4ce651cf840f</Id>
+                <Parent z:Ref="i12" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i18">
+                    <PropertyName>FilePath</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>@"Framework\KillApplications.pix"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <HeightOnFlowchart i:nil="true" />
+            <Id>7d849ecb-0a44-4e24-9aa7-825e7965621d</Id>
+            <Parent z:Ref="i5" />
+            <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <WidthOnFlowchart i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.Catch</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i19" i:type="ExecutedStep">
+            <Childs />
+            <HeightOnFlowchart i:nil="true" />
+            <Id>3c5cc754-4a18-4cfe-8af4-959a3481dec0</Id>
+            <Parent z:Ref="i5" />
+            <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <WidthOnFlowchart i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.Finally</_activityFullName>
+          </AbstractStep>
+        </Childs>
+        <HeightOnFlowchart i:nil="true" />
+        <Id>c7738d04-fa2e-4b6c-87b6-ae888374d55f</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.TryCatch</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i20" i:type="ExecutedStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>63baf5fb-e0bd-448b-88f1-a37c3b07b028</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
-          <PropertyValue z:Id="i6">
+          <PropertyValue z:Id="i21">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Finalización del cierre de aplicaciones abiertas."</_expression>
@@ -73,7 +272,7 @@
   <Name>CloseBrowser.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i7">
+    <Parameter z:Id="i22">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>navegador</Name>
