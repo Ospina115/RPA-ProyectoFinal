@@ -222,14 +222,26 @@
         <Childs>
           <AbstractStep z:Id="i21" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i22" i:type="ExecutedStep">
+              <AbstractStep z:Id="i22" i:type="CommentStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>3bcab3d6-06ee-4c7c-982f-0fc369668289</Id>
+                <Parent z:Ref="i21" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <IsCollapsed>false</IsCollapsed>
+                <Text>Agregamos los datos en un archivo excel, en caso de que este no exista, se crea uno nuevo</Text>
+              </AbstractStep>
+              <AbstractStep z:Id="i23" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>bfd6f6dc-cc71-4537-be9e-f83a213937f5</Id>
                 <Parent z:Ref="i21" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i23">
+                  <PropertyValue z:Id="i24">
                     <PropertyName>DataTable</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>tblResultados</_expression>
@@ -237,7 +249,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i24">
+                  <PropertyValue z:Id="i25">
                     <PropertyName>SheetName</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression i:nil="true" />
@@ -247,7 +259,7 @@
                     </_value>
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i25">
+                  <PropertyValue z:Id="i26">
                     <PropertyName>FileName</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>RutaExcel</_expression>
@@ -265,14 +277,14 @@
                 <Text></Text>
                 <_activityFullName>Activities.Office.Excel.WriteRange</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i26" i:type="ExecutedStep">
+              <AbstractStep z:Id="i27" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>223454c2-beab-4ecb-9a02-7837980c208d</Id>
                 <Parent z:Ref="i21" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i27">
+                  <PropertyValue z:Id="i28">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Datos agregados al archivo Excel exitosamente, creado en la ruta: "+ RutaExcel</_expression>
@@ -305,16 +317,28 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Try</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i28" i:type="ExecutedStep">
+          <AbstractStep z:Id="i29" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i29" i:type="ExecutedStep">
+              <AbstractStep z:Id="i30" i:type="CommentStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>61a352e4-9398-4e36-890a-aaa519fb4b55</Id>
+                <Parent z:Ref="i29" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <IsCollapsed>false</IsCollapsed>
+                <Text>Si ocurre un error, se registra en los logs y continua con el flujo</Text>
+              </AbstractStep>
+              <AbstractStep z:Id="i31" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>876e110d-ee7f-4d8f-96dd-fea6d1d27a64</Id>
-                <Parent z:Ref="i28" />
+                <Parent z:Ref="i29" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i30">
+                  <PropertyValue z:Id="i32">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Ha ocurrido un error insertando los datos en el nuevo archivo Excel"</_expression>
@@ -322,7 +346,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i31">
+                  <PropertyValue z:Id="i33">
                     <PropertyName>Level</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression i:nil="true" />
@@ -355,7 +379,7 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Catch</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i32" i:type="ExecutedStep">
+          <AbstractStep z:Id="i34" i:type="ExecutedStep">
             <Childs />
             <HeightOnFlowchart i:nil="true" />
             <Id>d16a780c-e307-4a4f-ba70-583b74354a20</Id>
@@ -386,14 +410,14 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.TryCatch</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i33" i:type="ExecutedStep">
+      <AbstractStep z:Id="i35" i:type="ExecutedStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>fa20e7c6-3f87-4918-ba75-8e41a8489724</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
-          <PropertyValue z:Id="i34">
+          <PropertyValue z:Id="i36">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Script para guardar los datos finalizado"</_expression>
@@ -429,14 +453,14 @@
   <Name>WriteExcel.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i35">
+    <Parameter z:Id="i37">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>tblResultados</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Data.DataTable</TypeString>
     </Parameter>
-    <Parameter z:Id="i36">
+    <Parameter z:Id="i38">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>RutaExcel</Name>

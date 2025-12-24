@@ -43,7 +43,7 @@
                   <PropertyValue z:Id="i8">
                     <PropertyName>URL</PropertyName>
                     <_dataType>Expression</_dataType>
-                    <_expression>@"https://www.google.com/finance/quote/USD-COP"</_expression>
+                    <_expression>UrlFinances</_expression>
                     <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -1314,6 +1314,13 @@
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>usd2cop</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.String</TypeString>
+    </Parameter>
+    <Parameter z:Id="i141">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>UrlFinances</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>

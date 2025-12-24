@@ -87,6 +87,11 @@
       <IsMain>false</IsMain>
       <Path>Framework\Web\GetProductInfo.pix</Path>
     </ProjectFileItem>
+    <ProjectFileItem z:Id="i19">
+      <IsDirectory>false</IsDirectory>
+      <IsMain>false</IsMain>
+      <Path>Data\TemplateInforme.docx</Path>
+    </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
   <Name>ProyectoFinal</Name>

@@ -68,7 +68,7 @@
                   <PropertyValue z:Id="i10">
                     <PropertyName>URL</PropertyName>
                     <_dataType>Expression</_dataType>
-                    <_expression>@$"https://listado.mercadolibre.com.co/{producto}"</_expression>
+                    <_expression>UrlBase+producto</_expression>
                     <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -347,6 +347,13 @@
       <Name>navegador</Name>
       <RunnerType>None</RunnerType>
       <TypeString>Web.Core.WebBrowser</TypeString>
+    </Parameter>
+    <Parameter z:Id="i30">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>UrlBase</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.String</TypeString>
     </Parameter>
   </Params>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
