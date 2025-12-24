@@ -439,7 +439,7 @@
               <PropertyValue z:Id="i41">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression>$"Para el estudio de {strProducto} realizado en la fecha {FechaActual}, se analizaron {TablaFinal.Rows.Count} productos. De cada uno se extrajo el nombre completo, la URL directa para visitar la página del producto, su precio actual en pesos colombianos y se calculó su valor en dólares, utilizando una tasa de cambio de {strDolar} vigente en la fecha del estudio."</_expression>
+                <_expression>$"En el estudio de {strProducto} realizado el {FechaActual}, se analizaron {TablaFinal.Rows.Count} productos. Se obtuvo el nombre, la URL del producto, su precio en pesos colombianos y se calculó en dólares con la tasa de {strDolar}."</_expression>
                 <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
