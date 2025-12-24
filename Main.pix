@@ -1537,6 +1537,14 @@
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
+                      <PropertyValue z:Id="i148">
+                        <PropertyName>Parameters</PropertyName>
+                        <_dataType>Value</_dataType>
+                        <_expression i:nil="true" />
+                        <_screenShotBase64 i:nil="true" />
+                        <_value xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d13p1:ArrayOfArgumentItem" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
                     </PropertyValues>
                     <SelectedOptionId i:nil="true" />
                     <WidthOnFlowchart>360</WidthOnFlowchart>
@@ -1547,14 +1555,14 @@
                     <Text>Enviar informe por correo electronico</Text>
                     <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i148" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i149" i:type="ExecutedStep">
                     <Childs />
                     <HeightOnFlowchart>50</HeightOnFlowchart>
                     <Id>934d50a0-9f67-45eb-9098-7e43c3c80da2</Id>
                     <Parent z:Ref="i145" />
                     <PositionOnFlowchart xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i149">
+                      <PropertyValue z:Id="i150">
                         <PropertyName>FilePath</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>@"Framework\Web\CloseApplications.pix"</_expression>
@@ -1587,20 +1595,20 @@
                 <Text></Text>
                 <_activityFullName>BR.Core.Base.Try</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i150" i:type="ExecutedStep">
+              <AbstractStep z:Id="i151" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i151" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i152" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i152" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i153" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i153" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i154" i:type="ExecutedStep">
                             <Childs />
                             <HeightOnFlowchart>50</HeightOnFlowchart>
                             <Id>56fe7243-ffdd-411d-af01-6ad4d08464e6</Id>
-                            <Parent z:Ref="i152" />
+                            <Parent z:Ref="i153" />
                             <PositionOnFlowchart xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i154">
+                              <PropertyValue z:Id="i155">
                                 <PropertyName>FilePath</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>@"Framework\KillApplications.pix"</_expression>
@@ -1621,7 +1629,7 @@
                         </Childs>
                         <HeightOnFlowchart i:nil="true" />
                         <Id>2dc54dfd-19e6-4571-ba9d-2955fc344175</Id>
-                        <Parent z:Ref="i151" />
+                        <Parent z:Ref="i152" />
                         <PositionOnFlowchart xmlns:d13p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
@@ -1633,11 +1641,11 @@
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Try</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i155" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i156" i:type="ExecutedStep">
                         <Childs />
                         <HeightOnFlowchart i:nil="true" />
                         <Id>e35241d8-3689-4870-90aa-9ba0785a8827</Id>
-                        <Parent z:Ref="i151" />
+                        <Parent z:Ref="i152" />
                         <PositionOnFlowchart xmlns:d13p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
@@ -1649,11 +1657,11 @@
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Catch</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i156" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i157" i:type="ExecutedStep">
                         <Childs />
                         <HeightOnFlowchart i:nil="true" />
                         <Id>edd155bb-d5dd-4fde-84ae-5b894bafd73b</Id>
-                        <Parent z:Ref="i151" />
+                        <Parent z:Ref="i152" />
                         <PositionOnFlowchart xmlns:d13p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
@@ -1668,7 +1676,7 @@
                     </Childs>
                     <HeightOnFlowchart i:nil="true" />
                     <Id>b9d8e304-68c4-44e1-a1a2-e80361cbfb6a</Id>
-                    <Parent z:Ref="i150" />
+                    <Parent z:Ref="i151" />
                     <PositionOnFlowchart xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
@@ -1695,7 +1703,7 @@
                 <Text></Text>
                 <_activityFullName>BR.Core.Base.Catch</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i157" i:type="ExecutedStep">
+              <AbstractStep z:Id="i158" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart i:nil="true" />
                 <Id>57650bd2-fcfc-489a-88c3-21bcd3917e80</Id>
@@ -1726,7 +1734,7 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.TryCatch</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i158" i:type="CommentStep">
+          <AbstractStep z:Id="i159" i:type="CommentStep">
             <Childs />
             <HeightOnFlowchart>50</HeightOnFlowchart>
             <Id>64dc8bd8-4167-4f57-9284-27cbc79f3486</Id>
@@ -1771,21 +1779,21 @@
   <Name>Main.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i159">
+    <Parameter z:Id="i160">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>navegador</Name>
       <RunnerType>None</RunnerType>
       <TypeString>Web.Core.WebBrowser</TypeString>
     </Parameter>
-    <Parameter z:Id="i160">
+    <Parameter z:Id="i161">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>tblResultados</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Data.DataTable</TypeString>
     </Parameter>
-    <Parameter z:Id="i161">
+    <Parameter z:Id="i162">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>StrProducto</Name>
