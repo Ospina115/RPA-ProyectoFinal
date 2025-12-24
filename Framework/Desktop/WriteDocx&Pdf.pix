@@ -45,77 +45,11 @@
       <AbstractStep z:Id="i6" i:type="ExecutedStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
-        <Id>2d3db2fb-4441-4737-a9d6-a69eadd09abd</Id>
-        <Parent z:Ref="i2" />
-        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
-        <PropertyValues>
-          <PropertyValue z:Id="i7">
-            <PropertyName>Value</PropertyName>
-            <_dataType>Expression</_dataType>
-            <_expression>@"Data\TemplateCopy.docx"</_expression>
-            <_screenShotBase64 i:nil="true" />
-            <_value i:nil="true" />
-            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-          </PropertyValue>
-          <PropertyValue z:Id="i8">
-            <PropertyName>To</PropertyName>
-            <_dataType>Expression</_dataType>
-            <_expression>RutaPlantilla</_expression>
-            <_screenShotBase64 i:nil="true" />
-            <_value i:nil="true" />
-            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-          </PropertyValue>
-        </PropertyValues>
-        <SelectedOptionId i:nil="true" />
-        <WidthOnFlowchart>360</WidthOnFlowchart>
-        <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
-        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-        <RetryCount>-1</RetryCount>
-        <Text></Text>
-        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
-      </AbstractStep>
-      <AbstractStep z:Id="i9" i:type="ExecutedStep">
-        <Childs />
-        <HeightOnFlowchart>50</HeightOnFlowchart>
-        <Id>0b364ee6-fb22-430a-a883-9adc282ff1c9</Id>
-        <Parent z:Ref="i2" />
-        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
-        <PropertyValues>
-          <PropertyValue z:Id="i10">
-            <PropertyName>Value</PropertyName>
-            <_dataType>Expression</_dataType>
-            <_expression>"3.750"</_expression>
-            <_screenShotBase64 i:nil="true" />
-            <_value i:nil="true" />
-            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-          </PropertyValue>
-          <PropertyValue z:Id="i11">
-            <PropertyName>To</PropertyName>
-            <_dataType>Expression</_dataType>
-            <_expression>strDolar</_expression>
-            <_screenShotBase64 i:nil="true" />
-            <_value i:nil="true" />
-            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-          </PropertyValue>
-        </PropertyValues>
-        <SelectedOptionId i:nil="true" />
-        <WidthOnFlowchart>360</WidthOnFlowchart>
-        <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
-        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-        <RetryCount>-1</RetryCount>
-        <Text></Text>
-        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
-      </AbstractStep>
-      <AbstractStep z:Id="i12" i:type="ExecutedStep">
-        <Childs />
-        <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>5d4a6ca0-38b3-431f-8095-4968eb81e2aa</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
-          <PropertyValue z:Id="i13">
+          <PropertyValue z:Id="i7">
             <PropertyName>FileDirectoryPath</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>RutaPlantilla</_expression>
@@ -123,7 +57,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i14">
+          <PropertyValue z:Id="i8">
             <PropertyName>Result</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>blnDocxExiste</_expression>
@@ -141,15 +75,15 @@
         <Text>Existe un archivo previo?</Text>
         <_activityFullName>Activities.Files.PathExist</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i15" i:type="ExecutedStep">
+      <AbstractStep z:Id="i9" i:type="ExecutedStep">
         <Childs>
-          <AbstractStep z:Id="i16" i:type="ExecutedStep">
+          <AbstractStep z:Id="i10" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i17" i:type="CommentStep">
+              <AbstractStep z:Id="i11" i:type="CommentStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>e0cb8acb-2991-4e5b-bc5f-e1fbec67db94</Id>
-                <Parent z:Ref="i16" />
+                <Parent z:Ref="i10" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues />
                 <SelectedOptionId i:nil="true" />
@@ -157,14 +91,14 @@
                 <IsCollapsed>false</IsCollapsed>
                 <Text>En caso de que ya exista un archivo con datos, se borra para crear el nuevo</Text>
               </AbstractStep>
-              <AbstractStep z:Id="i18" i:type="ExecutedStep">
+              <AbstractStep z:Id="i12" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>b1fd6341-d825-47e1-a519-15854eb50a98</Id>
-                <Parent z:Ref="i16" />
+                <Parent z:Ref="i10" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i19">
+                  <PropertyValue z:Id="i13">
                     <PropertyName>FilePath</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>RutaPlantilla</_expression>
@@ -182,14 +116,14 @@
                 <Text></Text>
                 <_activityFullName>Activities.Files.DeleteFile</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i20" i:type="ExecutedStep">
+              <AbstractStep z:Id="i14" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>15fb5608-087e-43e4-a8e8-9bd90899a09b</Id>
-                <Parent z:Ref="i16" />
+                <Parent z:Ref="i10" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i21">
+                  <PropertyValue z:Id="i15">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Se ha encontrado un archivo docx previo y se ha eliminado correctamente"</_expression>
@@ -197,7 +131,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i22">
+                  <PropertyValue z:Id="i16">
                     <PropertyName>Level</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression i:nil="true" />
@@ -215,14 +149,14 @@
                 <Text></Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i23" i:type="ExecutedStep">
+              <AbstractStep z:Id="i17" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>3c5a1c6e-4016-4bb4-b4ea-303a455e7f7a</Id>
-                <Parent z:Ref="i16" />
+                <Parent z:Ref="i10" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i24">
+                  <PropertyValue z:Id="i18">
                     <PropertyName>PathFrom</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>@"Data\TemplateInforme.docx"</_expression>
@@ -230,7 +164,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i25">
+                  <PropertyValue z:Id="i19">
                     <PropertyName>PathTo</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>RutaPlantilla</_expression>
@@ -251,7 +185,7 @@
             </Childs>
             <HeightOnFlowchart i:nil="true" />
             <Id>624a6a86-afac-4338-9954-ca794d5c337c</Id>
-            <Parent z:Ref="i15" />
+            <Parent z:Ref="i9" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues />
             <SelectedOptionId i:nil="true" />
@@ -263,13 +197,13 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i26" i:type="ExecutedStep">
+          <AbstractStep z:Id="i20" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i27" i:type="CommentStep">
+              <AbstractStep z:Id="i21" i:type="CommentStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>7ab70660-5372-4464-b021-8926cb52b13f</Id>
-                <Parent z:Ref="i26" />
+                <Parent z:Ref="i20" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues />
                 <SelectedOptionId i:nil="true" />
@@ -277,14 +211,14 @@
                 <IsCollapsed>false</IsCollapsed>
                 <Text>si no existe un archivo con datos, se crea uno nuevo para reemplazar mas adelante</Text>
               </AbstractStep>
-              <AbstractStep z:Id="i28" i:type="ExecutedStep">
+              <AbstractStep z:Id="i22" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>7a87b042-9f3b-45e0-ac34-bc85fef97240</Id>
-                <Parent z:Ref="i26" />
+                <Parent z:Ref="i20" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i29">
+                  <PropertyValue z:Id="i23">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"No se ha encontrado registro de un archivo docx, se creara uno nuevo"</_expression>
@@ -302,14 +236,14 @@
                 <Text></Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i30" i:type="ExecutedStep">
+              <AbstractStep z:Id="i24" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
                 <Id>b252e33a-8cc3-4082-8e48-2b52f96ee00a</Id>
-                <Parent z:Ref="i26" />
+                <Parent z:Ref="i20" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i31">
+                  <PropertyValue z:Id="i25">
                     <PropertyName>PathFrom</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>@"Data\TemplateInforme.docx"</_expression>
@@ -317,7 +251,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i32">
+                  <PropertyValue z:Id="i26">
                     <PropertyName>PathTo</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>RutaPlantilla</_expression>
@@ -338,7 +272,7 @@
             </Childs>
             <HeightOnFlowchart i:nil="true" />
             <Id>754ef2db-d9af-422e-a67d-7a7692e37790</Id>
-            <Parent z:Ref="i15" />
+            <Parent z:Ref="i9" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues />
             <SelectedOptionId i:nil="true" />
@@ -356,7 +290,7 @@
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
-          <PropertyValue z:Id="i33">
+          <PropertyValue z:Id="i27">
             <PropertyName>Condition</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>blnDocxExiste</_expression>
@@ -374,13 +308,13 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.If</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i34" i:type="ExecutedStep">
+      <AbstractStep z:Id="i28" i:type="ExecutedStep">
         <Childs>
-          <AbstractStep z:Id="i35" i:type="CommentStep">
+          <AbstractStep z:Id="i29" i:type="CommentStep">
             <Childs />
             <HeightOnFlowchart>50</HeightOnFlowchart>
             <Id>422bc943-64c8-4da0-8558-00fcf41bfea3</Id>
-            <Parent z:Ref="i34" />
+            <Parent z:Ref="i28" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues />
             <SelectedOptionId i:nil="true" />
@@ -388,14 +322,14 @@
             <IsCollapsed>false</IsCollapsed>
             <Text>Agregamos los valores que el bot ha obtenido</Text>
           </AbstractStep>
-          <AbstractStep z:Id="i36" i:type="ExecutedStep">
+          <AbstractStep z:Id="i30" i:type="ExecutedStep">
             <Childs />
             <HeightOnFlowchart>50</HeightOnFlowchart>
             <Id>363ae895-c1f9-4e4d-a4c3-14ab658cfe7e</Id>
-            <Parent z:Ref="i34" />
+            <Parent z:Ref="i28" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues>
-              <PropertyValue z:Id="i37">
+              <PropertyValue z:Id="i31">
                 <PropertyName>Result</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>FechaActual</_expression>
@@ -413,14 +347,14 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.GetDateTime</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i38" i:type="ExecutedStep">
+          <AbstractStep z:Id="i32" i:type="ExecutedStep">
             <Childs />
             <HeightOnFlowchart>50</HeightOnFlowchart>
             <Id>759df5f1-cde3-4d0a-aced-fb1429c2e371</Id>
-            <Parent z:Ref="i34" />
+            <Parent z:Ref="i28" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues>
-              <PropertyValue z:Id="i39">
+              <PropertyValue z:Id="i33">
                 <PropertyName>OldValue</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>"{FECHA-EJECUCION}"</_expression>
@@ -428,7 +362,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i40">
+              <PropertyValue z:Id="i34">
                 <PropertyName>NewValue</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>FechaActual.ToString()</_expression>
@@ -436,7 +370,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i41">
+              <PropertyValue z:Id="i35">
                 <PropertyName>WordFilePath</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>RutaPlantilla</_expression>
@@ -454,14 +388,14 @@
             <Text>Reemplazar fecha</Text>
             <_activityFullName>Activities.Office.Word.ReplaceText</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i42" i:type="ExecutedStep">
+          <AbstractStep z:Id="i36" i:type="ExecutedStep">
             <Childs />
             <HeightOnFlowchart>50</HeightOnFlowchart>
             <Id>aee444b0-ade4-4bce-aeca-7e190c4acc2f</Id>
-            <Parent z:Ref="i34" />
+            <Parent z:Ref="i28" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues>
-              <PropertyValue z:Id="i43">
+              <PropertyValue z:Id="i37">
                 <PropertyName>OldValue</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>"{VALOR-DOLARES}"</_expression>
@@ -469,7 +403,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i44">
+              <PropertyValue z:Id="i38">
                 <PropertyName>NewValue</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>strDolar</_expression>
@@ -477,7 +411,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i45">
+              <PropertyValue z:Id="i39">
                 <PropertyName>WordFilePath</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>RutaPlantilla</_expression>
@@ -495,14 +429,88 @@
             <Text>Reemplazar valor del dolar</Text>
             <_activityFullName>Activities.Office.Word.ReplaceText</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i46" i:type="ExecutedStep">
+          <AbstractStep z:Id="i40" i:type="ExecutedStep">
+            <Childs />
+            <HeightOnFlowchart>50</HeightOnFlowchart>
+            <Id>c0bb4f8e-6c9e-4172-90d1-d239e24210c5</Id>
+            <Parent z:Ref="i28" />
+            <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+            <PropertyValues>
+              <PropertyValue z:Id="i41">
+                <PropertyName>Value</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>$"Para el estudio de {strProducto} realizado en la fecha {FechaActual}, se analizaron {TablaFinal.Rows.Count} productos. De cada uno se extrajo el nombre completo, la URL directa para visitar la página del producto, su precio actual en pesos colombianos y se calculó su valor en dólares, utilizando una tasa de cambio de {strDolar} vigente en la fecha del estudio."</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i42">
+                <PropertyName>To</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>strResumen</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <WidthOnFlowchart>360</WidthOnFlowchart>
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i43" i:type="ExecutedStep">
+            <Childs />
+            <HeightOnFlowchart>50</HeightOnFlowchart>
+            <Id>95c02f32-70a1-493b-a32d-ece395fb1910</Id>
+            <Parent z:Ref="i28" />
+            <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+            <PropertyValues>
+              <PropertyValue z:Id="i44">
+                <PropertyName>OldValue</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>"{RESUMEN-ANALISIS}"</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i45">
+                <PropertyName>NewValue</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>strResumen</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i46">
+                <PropertyName>WordFilePath</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>RutaPlantilla</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <WidthOnFlowchart>360</WidthOnFlowchart>
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text>Reemplazar Resumen</Text>
+            <_activityFullName>Activities.Office.Word.ReplaceText</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i47" i:type="ExecutedStep">
             <Childs />
             <HeightOnFlowchart>50</HeightOnFlowchart>
             <Id>193dd33e-5e43-42ca-b1f6-86478585dcaf</Id>
-            <Parent z:Ref="i34" />
+            <Parent z:Ref="i28" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues>
-              <PropertyValue z:Id="i47">
+              <PropertyValue z:Id="i48">
                 <PropertyName>Result</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>TablasPlantilla</_expression>
@@ -510,7 +518,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i48">
+              <PropertyValue z:Id="i49">
                 <PropertyName>WordFilePath</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>RutaPlantilla</_expression>
@@ -528,14 +536,14 @@
             <Text>Leer la tabla de la plantilla</Text>
             <_activityFullName>Activities.Office.Word.ReadTables</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i49" i:type="ExecutedStep">
+          <AbstractStep z:Id="i50" i:type="ExecutedStep">
             <Childs />
             <HeightOnFlowchart>50</HeightOnFlowchart>
             <Id>e3d53d90-91f9-4297-9252-733d03879afb</Id>
-            <Parent z:Ref="i34" />
+            <Parent z:Ref="i28" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues>
-              <PropertyValue z:Id="i50">
+              <PropertyValue z:Id="i51">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>TablaFinal</_expression>
@@ -543,7 +551,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i51">
+              <PropertyValue z:Id="i52">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>TablasPlantilla[0]</_expression>
@@ -561,14 +569,14 @@
             <Text>asignarle los productos</Text>
             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i52" i:type="ExecutedStep">
+          <AbstractStep z:Id="i53" i:type="ExecutedStep">
             <Childs />
             <HeightOnFlowchart>50</HeightOnFlowchart>
             <Id>da9d84c9-d4fc-46bd-9896-2120f3c5db4a</Id>
-            <Parent z:Ref="i34" />
+            <Parent z:Ref="i28" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues>
-              <PropertyValue z:Id="i53">
+              <PropertyValue z:Id="i54">
                 <PropertyName>Tables</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>TablasPlantilla</_expression>
@@ -576,7 +584,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i54">
+              <PropertyValue z:Id="i55">
                 <PropertyName>WordFilePath</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>RutaPlantilla</_expression>
@@ -594,14 +602,14 @@
             <Text>reescribir el word</Text>
             <_activityFullName>Activities.Office.Word.FillTables</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i55" i:type="ExecutedStep">
+          <AbstractStep z:Id="i56" i:type="ExecutedStep">
             <Childs />
             <HeightOnFlowchart>50</HeightOnFlowchart>
             <Id>264f4b0b-5ee7-4687-abc1-b75f99b4aad8</Id>
-            <Parent z:Ref="i34" />
+            <Parent z:Ref="i28" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues>
-              <PropertyValue z:Id="i56">
+              <PropertyValue z:Id="i57">
                 <PropertyName>Text</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>"Sobreescritura finalizada con exito"</_expression>
@@ -634,14 +642,296 @@
         <Text>Llenar Archivo DOCX</Text>
         <_activityFullName>BR.Core.Base.Container</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i57" i:type="ExecutedStep">
+      <AbstractStep z:Id="i58" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>b02ff249-2813-47e1-aaa1-8582f23d51df</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i59">
+            <PropertyName>FileDirectoryPath</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>RutaPDF</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i60">
+            <PropertyName>Result</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>blnPdfExiste</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text>Existe un archivo previo?</Text>
+        <_activityFullName>Activities.Files.PathExist</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i61" i:type="ExecutedStep">
+        <Childs>
+          <AbstractStep z:Id="i62" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i63" i:type="CommentStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>688666ee-e016-49df-9db0-dab7455c44a5</Id>
+                <Parent z:Ref="i62" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <IsCollapsed>false</IsCollapsed>
+                <Text>En caso de que ya exista un archivo con datos, se borra para crear el nuevo</Text>
+              </AbstractStep>
+              <AbstractStep z:Id="i64" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>66349acc-e641-42a8-a726-beb5e3a3c717</Id>
+                <Parent z:Ref="i62" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i65">
+                    <PropertyName>FilePath</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>RutaPDF</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.Files.DeleteFile</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i66" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>af2e214e-49d5-4cb7-8813-d8293abf073a</Id>
+                <Parent z:Ref="i62" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i67">
+                    <PropertyName>Text</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"Se ha encontrado un archivo docx previo y se ha eliminado correctamente"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i68">
+                    <PropertyName>Level</PropertyName>
+                    <_dataType>Value</_dataType>
+                    <_expression i:nil="true" />
+                    <_screenShotBase64 i:nil="true" />
+                    <_value xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.Core.Base" i:type="d11p1:LogLevel">Warn</_value>
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i69" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>4e660697-696b-4113-9208-bb5ce5771883</Id>
+                <Parent z:Ref="i62" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i70">
+                    <PropertyName>NewName</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>RutaPDF</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i71">
+                    <PropertyName>SaveFormat</PropertyName>
+                    <_dataType>Value</_dataType>
+                    <_expression i:nil="true" />
+                    <_screenShotBase64 i:nil="true" />
+                    <_value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Activities.Office.Word" i:type="d11p1:WordSaveFormat">PDF</_value>
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i72">
+                    <PropertyName>WordFilePath</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>RutaPlantilla</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.Office.Word.WordSaveAs</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <HeightOnFlowchart i:nil="true" />
+            <Id>dbe5df40-e51e-4a65-b254-1872681edd7b</Id>
+            <Parent z:Ref="i61" />
+            <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <WidthOnFlowchart i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i73" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i74" i:type="CommentStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>ed0ab601-f7ff-4613-b1d8-81281c3b8356</Id>
+                <Parent z:Ref="i73" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <IsCollapsed>false</IsCollapsed>
+                <Text>si no existe un archivo con datos, se crea uno nuevo para reemplazar mas adelante</Text>
+              </AbstractStep>
+              <AbstractStep z:Id="i75" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>eda9b4ee-ac95-4930-98f9-4e63f7005441</Id>
+                <Parent z:Ref="i73" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i76">
+                    <PropertyName>Text</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"No se ha encontrado registro de un archivo docx, se creara uno nuevo"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i77" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>26315a59-c6d1-4038-a6bd-fe9a835ebf45</Id>
+                <Parent z:Ref="i73" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i78">
+                    <PropertyName>NewName</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>RutaPDF</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i79">
+                    <PropertyName>SaveFormat</PropertyName>
+                    <_dataType>Value</_dataType>
+                    <_expression i:nil="true" />
+                    <_screenShotBase64 i:nil="true" />
+                    <_value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Activities.Office.Word" i:type="d11p1:WordSaveFormat">PDF</_value>
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i80">
+                    <PropertyName>WordFilePath</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>RutaPlantilla</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.Office.Word.WordSaveAs</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <HeightOnFlowchart i:nil="true" />
+            <Id>3705c67c-e87e-46b3-a1cd-601922529edd</Id>
+            <Parent z:Ref="i61" />
+            <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <WidthOnFlowchart i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+          </AbstractStep>
+        </Childs>
+        <HeightOnFlowchart i:nil="true" />
+        <Id>bddda1f8-4356-4634-b92b-1dd60b830ae2</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i81">
+            <PropertyName>Condition</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>blnPdfExiste</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.If</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i82" i:type="ExecutedStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>f4e964e4-f1d3-4b81-a21b-a8b0ff5735f8</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
-          <PropertyValue z:Id="i58">
+          <PropertyValue z:Id="i83">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Finalizando sl script de escritura de .docx"</_expression>
@@ -677,33 +967,40 @@
   <Name>WriteDocx&amp;Pdf.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i59">
+    <Parameter z:Id="i84">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>strProducto</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i60">
+    <Parameter z:Id="i85">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>strDolar</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i61">
+    <Parameter z:Id="i86">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>RutaPlantilla</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i62">
+    <Parameter z:Id="i87">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>TablaFinal</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Data.DataTable</TypeString>
+    </Parameter>
+    <Parameter z:Id="i88">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>RutaPDF</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.String</TypeString>
     </Parameter>
   </Params>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
