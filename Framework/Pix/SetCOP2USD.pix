@@ -496,7 +496,7 @@
               <PropertyValue z:Id="i46">
                 <PropertyName>Text</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression>"Precio convertido exitosamente, " + intPrecio + " pesos son: " + intDolar + " dolares"</_expression>
+                <_expression>"Precio convertido exitosamente, " + intPrecio + " pesos son: " + intPrecioUSD + " dolares"</_expression>
                 <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
